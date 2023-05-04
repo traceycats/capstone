@@ -2,9 +2,16 @@ import AcidBase from './AcidBase';
 import Thermodynamics from './Thermodynamics';
 import Intermolecular from './Intermolecular';
 import { useState } from 'react';
-import { notify } from './Achievements';
+// import { toast } from 'react-toastify'
 
 export default function Lessons() {
+    
+    // const notify = () => {
+    //     toast("achievement unlocked!", {
+    //         icon: "🧪",
+    //         position: toast.POSITION.BOTTOM_RIGHT
+    //     })
+    // }
 
     // acid base toggle
     const [showAcid, setShowAcid] = useState(false);

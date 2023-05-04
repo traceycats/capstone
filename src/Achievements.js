@@ -1,10 +1,10 @@
 import { default as sample } from './sample.svg';
-// import { toast } from 'react-toastify';
+import { toast } from 'react-toastify';
 // import "react-toastify/dist/ReactToastify.css";
 
 
 export default function Achievements() {
-
+    
     return(
         <div id="achievements">
             <img src={sample} class="locked" alt="sample achievement"></img>
@@ -14,9 +14,3 @@ export default function Achievements() {
     )
 }
 
-// export const notify = () => {
-//     toast("achievement unlocked!", {
-//         icon: "🧪",
-//         position: toast.POSITION.BOTTOM_RIGHT
-//     })
-// }
