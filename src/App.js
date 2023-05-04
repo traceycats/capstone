@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import Header from './Header';
 import Footer from './Footer';
 import Lessons from './Lessons';
