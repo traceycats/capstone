@@ -1,13 +1,243 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('https://fonts.googleapis.com/css2?family=Karla&family=Oxanium&display=swap');
+
+html {
+  height:100vh;
+  width: 100vw;
+  background-image: linear-gradient(#5F2C82,#4A8D71);
+  background-size: cover;
+  display:flex;
+  justify-content: center;
+  overflow: hidden;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+::selection {
+  background-color: #DF9C6C;
+  color:black;
+}
+
+body {
+  font-family: 'Karla', sans-serif;
+  font-size: 14px;
+  background-color: #efebf8;
+  box-shadow:0.25em 0.25em 2em rgba(37, 21, 24, 0.25);
+  color:rgb(43, 43, 43);
+  padding:3em;
+  margin-top:1em;
+  border-radius: 1em;
+  width: 70%;
+  max-width: 60vw;
+  display:flex;
+  flex-direction: column;
+  overflow: scroll;
+}
+
+main {
+  margin-top: 15vh;
+}
+
+body a {
+  color: #5F2C82;
+  font-weight: bold;
+}
+
+h1, h2, h3 {
+  font-family: 'Oxanium', cursive;
+  color:black;
+  margin: none;
+}
+
+button {
+  font-family: 'Oxanium', cursive;
+  border: 2px solid black;
+  max-width: 100px;
+  background:none;
+  border-radius: 0.3em;
+  font-weight: bold;
+  padding:0.3em;
+}
+
+button:hover {
+  background-color: rgb(197, 176, 236);
+}
+
+.lessonButton {
+  box-shadow:0.25em 0.25em 2em rgba(37, 21, 24, 0.25);
+  border:none;
+  background-color: #4A8D71;
+  color:black;
+  text-decoration: none;
+  margin:1em;
+  padding: 0.5em;
+  border-radius: 0.5em;
+  max-width: 200px;
+}
+
+.lessonButton:hover {
+  background-color:#7EC97D;
+}
+
+#scientistIcon, #userIcon {
+  background: none;
+  box-shadow: none;
+  border:none;
+  padding: 0px;
+  margin: 0px;
+}
+
+header {
+  display:flex;
+  flex-direction: row;
+  border-bottom: solid black 1px;
+  background-color:#efebf8;
+  position:fixed;
+  top:1em;
+  padding-top:50px;
+  height: 100px;
+  width:60vw;
+}
+
+footer {
+  padding:1em;
+  border-top: 1px black solid;
+  background-color: #efebf8;
+  font-size: 12px;
+  display:flex;
+  flex-direction: column;
+  height: 10vh;
+}
+
+#scientistLogo {
+  width:5em;
+  padding:0px;
+  margin: 0px;
+  border-radius: 100%;
+}
+
+#scientistLogo:hover {
+  box-shadow: 0.25em 0.25em 2em rgb(221, 203, 255);
+}
+
+#user {
+  display: flex;
+  padding: 0.5em;
+  margin:0.5em;
+  margin-left:auto;
+  justify-content: left;
+  align-items: center;
+  border-radius: 1em;
+  background-color: rgb(199, 172, 243);
+  box-shadow:0.25em 0.25em 2em rgba(37, 21, 24, 0.25);
+}
+
+#lessons {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1em;
+  overflow:scroll;
+}
+
+#lessonButtons {
+  display: flex;
+  flex-direction: row;
+}
+
+.lessonButton:active {
+  background-color: #DF9C6C;
+  box-shadow: none;
+}
+
+@keyframes fadeIn {
+  0% {opacity: 0%;}
+  100% {opacity: 100%;}
+}
+
+@keyframes fadeOut {
+  0% {opacity: 100%;}
+  100% {opacity: 0%;}
+}
+
+#infoContainer {
+  animation: fadeIn 0.5s;
+  position:fixed;
+  top:0px;
+  left:0px;
+  background: #14023181;
+  width: 100vw;
+  height: 100vh;
+  overflow:hidden;
+}
+
+#about, #references {
+  box-shadow:0.25em 0.25em 2em #260d3140;
+  background-color: #efebf8;
+  font-size: 16px;
+  margin: 5vw 15vw 0vw 15vw;
+  padding: 50px;
+  flex-direction: column;
+  border-radius: 1em;
+  max-height: 70%;
+  overflow:scroll;
+}
+
+#testTube {
+  width:2.5em;
+  border-radius: 100%;
+}
+
+#testTube:hover {
+  box-shadow:0.25em 0.25em 2em rgba(234, 218, 253, 0.918);
+}
+
+#xp {
+  background-color: #4A8D71;
+  border: solid black 1px;
+  border-radius: 0.5em;
+  color:#efebf8;
+  margin:0.5em;
+  padding: 0.2em;
+  display: flex;
+  font-family: 'Oxanium', cursive;
+}
+
+#achievementButton {
+  background-color: #efebf8;
+  box-shadow: none;
+  color:#5F2C82;
+  border:none;
+}
+#achievementButton:hover{
+  background-color: #DF9C6C;
+}
+
+#infoButtonContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 200px;
+}
+
+#design {
+  display: flex;
+  margin: auto;
+  max-width: 60vw;
+}
+
+.closeButton {
+  display: flex;
+  margin:auto;
+  background-color: #4A8D71;
+}
+
+#achievements {
+  width: 100px;
+  height: inherit;
+}
+
+.youtubeVideo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
