@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { default as design } from './design.png'
 
 export default function About() {
 
@@ -30,7 +31,7 @@ export default function About() {
                 scrolling, or hidden easter eggs, can encourage users to stay a little while longer and interact with the content more.
                 </p>
                 <p>For this project, I learned the React Javascript library. This required reading a lot of documentation and working through tutorials. </p>
-                {/* <img src={design} id="design" alt="basic design of the website, including color palette and buttons"></img> */}
+                <img src={design} id="design" alt="basic design of the website, including color palette and button stages"></img>
                 <button onClick={closeAbout} class="closeButton">close</button>
             </div>
         </div>
