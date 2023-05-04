@@ -1,6 +1,6 @@
 import { default as sample } from './sample.svg';
-import { toast } from 'react-toastify';
-import "react-toastify/dist/ReactToastify.css";
+// import { toast } from 'react-toastify';
+// import "react-toastify/dist/ReactToastify.css";
 
 
 export default function Achievements() {
