@@ -2,6 +2,7 @@ import AcidBase from './AcidBase';
 import Thermodynamics from './Thermodynamics';
 import Intermolecular from './Intermolecular';
 import { useState } from 'react';
+import { notify } from './Achievements';
 
 export default function Lessons() {
 
