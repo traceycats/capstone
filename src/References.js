@@ -38,6 +38,8 @@ export default function References() {
 
             <h3>lessons research</h3>
             <p>Flowers P., Theopold, K., Langley, R., Robinson W.R., PhD. (2019) Chemistry 2e. OpenStax. <a href="https://openstax.org/books/chemistry-2e/">access online</a></p>
+            
+            <p>Stewart, Ken. "laws of thermodynamics". Encyclopedia Britannica, Invalid Date, https://www.britannica.com/science/laws-of-thermodynamics. Accessed 4 May 2023.</p>
             <button onClick={closeReferences} class="closeButton">close</button>
             </div>
 

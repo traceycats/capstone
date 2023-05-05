@@ -13,7 +13,8 @@ export default function Intermolecular() {
                     <li>ion-dipole</li>
                         <ul><li>ion dipole interactions are the result of electrical interactions between <i>ions</i> and partial charges on a polar molecule</li></ul>
                     <li>hydrogen bonding</li>
-                        <ul><li></li></ul>
+                        <ul><li>hydrogen bonds are the attractive force between a hydrogen atom, bonded to a very electronegative atom (O,N, or F), and another similar atom. it's considered the strongest of the 
+                        intermolecular forces</li></ul>
                     </ul>
                     <p>Kind of like how you interact differently in different social contexts, molecules act differently with each other.</p>
                     <div class="youtubeVideo">

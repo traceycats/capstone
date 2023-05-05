@@ -4,7 +4,7 @@ export default function Achievements() {
 
     return(
         <div id="achievements">
-            <img src={sample} class="locked" alt="sample achievement"></img>
+        coming soon
         </div>
     )
 }

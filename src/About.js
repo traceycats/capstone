@@ -18,6 +18,7 @@ export default function About() {
             <h2>about this project</h2>
                 <p>This website is an interdisciplinary research based project for my capstone class at Virginia Commonwealth University. This project started out as researching issues within my disciplines,
                 computer science and chemistry. </p>
+                <h3>interdisciplinary research</h3>
                 <p>Research has shown that chemistry would benefit from an interdisciplinary approach, especially in terms of chemistry education. 
                 Some researchers say that connecting chemistry to more “everyday” examples could help students understand the more complex concepts in chemistry (Sjöström, & Talanquer, V). 
                 Combining my knowledge of computer science with my knowledge of chemistry, I set out to create a simple web app that would introduce ways that chemistry concepts could be 
@@ -31,10 +32,12 @@ export default function About() {
                 scrolling, or hidden easter eggs, can encourage users to stay a little while longer and interact with the content more.
                 </p>
                 <p>For this project, I learned the React Javascript library. This required reading a lot of documentation and working through tutorials. This was also the first time I deployed a project, which was a massive learning
-                curve on it's own. This led to some planned features not being able to be implemented in time, such as the experience points and achievements. </p>
+                curve on it's own. Of course, this meant some things did not go as planned. Features such as experience points and achievements ended up either not being feasible with my current level of knowledge, 
+                or would break when pushed to production.  </p>
                 <img src={design} id="design" alt="basic design of the website, including color palette and button stages"></img>
                 <p class="imageText">The planned design of this website, made using Figma</p>
-                <p>Overall, this project has helped me bridge gaps in my disciplines. I hope you enjoyed.</p>
+                <h3>so... what?</h3>
+                <p>Overall, this project has helped me bridge gaps in my disciplines. Not only that, it is only a small example of how computer science can benefit computer science. I hope you enjoyed.</p>
                 <button onClick={closeAbout} class="closeButton">close</button>
             </div>
         </div>
