@@ -5,7 +5,8 @@ export default function Intermolecular() {
           <p>intermolecular forces are the different ways separate molecules interact with each other. there are several different types of intermolecular forces:</p>
                     <ul>
                     <li>van der waals forces</li> 
-                        <ul><li></li></ul>
+                        <ul><li>van der waals forces are the tiny interactions between electrons  of neutral molecules as they move around the nucleus. sometimes this term is used to refer to 
+                        all intermolecular forces.</li></ul>
                         <ul><li><b>london dispersion forces</b> are a subset of can der waals forces. they are the result of motions of electrons and are considered to be the weakest of all 
                         intermolecular forces. the bigger the molecule, the more london dispersion force it will have.</li> </ul>
                     <li>dipole dipole</li>
@@ -21,6 +22,7 @@ export default function Intermolecular() {
                     <h3>gecko pads use intermolecular forces to help them cling to surfaces, even in vacuums! </h3>
                     <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/p6QmV1EbVnI" title="YouTube video player" 
                     frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    <h3>often, plastics are made beginning with phenols - because they are capable of strong hydrogen bonds!</h3>
                     </div>
           </div>
     );

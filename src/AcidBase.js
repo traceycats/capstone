@@ -8,8 +8,8 @@ export default function AcidBase() {
               <ul>
                 <li>Arrhenius</li>
                     <ul>
-                        <li>acids - dissolve in water to give hydronium (h3o+)</li>
-                        <li>bases - dissolve in water to give hydroxide (oh-)</li>
+                        <li>acids - dissolve in water to give hydronium (H<sub>3</sub>O<sup>+</sup>)</li>
+                        <li>bases - dissolve in water to give hydroxide (OH-)</li>
                     </ul>
                 <li>Bronsted-Lowry</li>
                     <ul>
