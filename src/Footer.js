@@ -20,7 +20,7 @@ export default function Footer() {
   return (
     <footer>
       a capstone project
-      <br/>Virginia Commonwealth University // UNIV 499 // Spring 2023
+      <br/>Virginia Commonwealth University // Spring 2023
       <div id="infoButtonContainer">      
         <button onClick ={toggleAbout}>read more</button>
         {openAbout && <About />}
