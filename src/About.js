@@ -1,5 +1,4 @@
 import { useState } from 'react';
-import { default as design } from './design.png'
 
 export default function About() {
 
@@ -35,7 +34,7 @@ export default function About() {
                 <p>In the beginning I wanted to make a periodic table website, going into detail about each element's use. I quickly realized this would be near impossible given the time available to work on it, so I decided
                  to focus on concepts that I struggled with in general chemistry. In my preliminary research I found that gamification of learning often helps students, so I wanted to make a website that would incorporate
                   game-like elements. I consulted my old notes as well as online textbooks to make mini lessons, and found a way each concept appeared in real life.</p>
-                <h3>image removed<\h3>
+                <h3>image removed</h3>
                 <p class="imageText">The planned design of this website, made using Figma</p>
                 <p>After starting to build my project, I had struggled with having to have a lot of repeated mark-up in my HTML, which was tedious and not best practice. I decided to try and use this project 
                 to learn React, which is a JavaScript library used and maintained by Facebook. I read a lot of the documentation to help me get a good understanding before jumping in. This did end up making the process of building
